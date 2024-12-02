@@ -1,0 +1,46 @@
+.range-container {
+    position: relative;
+    width: 100%;
+}
+
+.range-container input {
+    position: absolute;
+    width: 15rem;
+    height: .3rem;
+    background: none;
+    border: 1px solid rgb(190, 190, 190);
+    top: -5px;
+    pointer-events: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    z-index: 1;
+
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    height: 18px;
+    width: 18px;
+    border-radius: 70%;
+    background: #2d7edb;
+    pointer-events: auto;
+    -webkit-appearance: none;
+    z-index: 5;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000000;
+    cursor: pointer;
+}
+
+.range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #007bff;
+    cursor: pointer;
+}

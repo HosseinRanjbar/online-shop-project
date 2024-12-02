@@ -1,9 +1,16 @@
-import React from 'react'
+import './assets/Filter.css'
+import Brand from './components/Brand'
+import Categories from './components/Categories'
+import Price from './components/Price'
+import TopSelling from './components/TopSelling'
 
 const Filter = () => {
     return (
-        <div>
-            filter
+        <div className='filter-container'>
+            <Categories />
+            <Price />
+            <Brand />
+            <TopSelling />
         </div>
     )
 }

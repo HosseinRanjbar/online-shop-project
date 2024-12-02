@@ -7,12 +7,13 @@ const MainContent = () => {
   return (
     <>
       <main>
-        <section className='prodcust-section'>
-            <Products />
-        </section>
 
         <section className='filter-section'>
           <Filter />
+        </section>
+
+        <section className='prodcuts-section'>
+          <Products />
         </section>
       </main>
     </>

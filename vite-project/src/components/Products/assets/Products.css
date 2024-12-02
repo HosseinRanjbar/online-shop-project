@@ -1,7 +1,7 @@
 .products-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #ccdbe7;
+    gap: 1rem;
     padding: 3rem;
     position: relative;
     height: 1580px;
