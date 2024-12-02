@@ -1,0 +1,6 @@
+.filter-container {
+    min-height: 1280px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 1rem;
+}
