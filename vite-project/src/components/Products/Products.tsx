@@ -11,8 +11,6 @@ const Products = () => {
     url: PRODUCTS_ENDPOINTS.get
   })
 
-  console.log(data, "data");
-
   return (
     <div className='products-container'>
       {loading ? <Loading /> :
@@ -24,6 +22,7 @@ const Products = () => {
               images={item.images}
               price={item.price}
               description={item.description}
+              category={item?.category}
             />
           )
         })
